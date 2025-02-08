@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'alifias-handwritten';
+    src: url(../src/AlifiasHandwritten1-naJR.ttf);
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
     color: #EEE5E9;
+    font-family: 'alifias-handwritten', 'Courier New', Courier, monospace;
 }
 
 #page-container {
