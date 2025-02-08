@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="../css/calc.css">
+        <title>Calculator | Online Resume</title>
+    </head>
+    <body>
+        <h1>brat calc</h1>
+
+        <div id="container">
+            <label for="first-number">first number:</label>
+            <input type="text" id="first-number">
+    
+            <label for="second-number">second number:</label>
+            <input type="text" id="second-number">
+        </div>
+        
+        <div id="button-container">
+            <button onclick="add()">+</button>
+            <button onclick="sub()">-</button>
+            <button onclick="mult()">x</button>
+            <button onclick="div()">/</button>
+            <button onclick="pow()">^</button>
+            <button onclick="c()">c</button>
+        </div>
+    
+        <div id="output">
+            <p id="result"></p>
+        </div>
+
+        <script src="../js/calc.js"></script>
+    </body>
+</html>

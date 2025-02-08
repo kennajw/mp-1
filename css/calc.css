@@ -1,0 +1,47 @@
+* {
+    background-color: #8ACE00;
+}
+
+#output {
+    display: flex;
+    visibility: hidden;
+    color: black;
+    margin: 2vh;
+    justify-content: center;
+}
+
+#container, #button-container {
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: calc(2px + 3vh);
+}
+
+p {
+    font-size: calc(2px + 2vh);
+}
+
+label {
+    font-size: calc(2px + 2vh);
+    margin: 1vh;
+}
+
+button {
+    background-color: black;
+    color: #8ACE00;
+    border: none;
+    border-radius: 50%;
+}
+
+input {
+    border-color: black;
+    margin: 1vh;
+}
+
+button {
+    margin: .2vh;
+}
